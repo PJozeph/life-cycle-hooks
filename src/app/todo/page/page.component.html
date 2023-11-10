@@ -1,0 +1,7 @@
+<p>page works!</p>
+<app-children [name]="'Angular'">
+    <app-foo  *ngIf="isVisible"></app-foo>
+</app-children>
+<button (click)="toggleVisibility()">
+    Click Me
+</button>
